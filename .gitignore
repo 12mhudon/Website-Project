@@ -1,6 +1,9 @@
 #additional self-added
 LICENSE.txt
 img/
+js/
+mail/
+scss/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
