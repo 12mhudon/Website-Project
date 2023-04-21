@@ -1,6 +1,6 @@
 #additional self-added
 LICENSE.txt
-/img
+img/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
