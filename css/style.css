@@ -6789,7 +6789,8 @@ button.bg-dark:focus {
 .embed-responsive iframe,
 .embed-responsive embed,
 .embed-responsive object,
-.embed-responsive video {
+.embed-responsive video,
+.embed-responsive blockquote {
   position: absolute;
   top: 0;
   bottom: 0;
