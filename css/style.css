@@ -9825,7 +9825,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #218380;
+  color: #73D2DE;
 }
 
 @media (max-width: 991.98px) {
@@ -9957,7 +9957,7 @@ h6,
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #218380;
+  background: #73D2DE;
 }
 
 .blog-date {
