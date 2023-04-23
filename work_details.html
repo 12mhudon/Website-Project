@@ -27,30 +27,6 @@
 
     <!-- base url -->
     <base href="https://12mhudon.github.io/Website-Project/" target="_parent">
-
-    <!-- reload page once on first load-->
-    <script type='text/javascript'>
-  
-        // JavaScript anonymous function
-        (() => {
-            if (window.localStorage) {
-  
-                // If there is no item as 'reload'
-                // in localstorage then create one &
-                // reload the page
-                if (!localStorage.getItem('reload')) {
-                    localStorage['reload'] = true;
-                    window.location.reload();
-                } else {
-  
-                    // If there exists a 'reload' item
-                    // then clear the 'reload' item in
-                    // local storage
-                    localStorage.removeItem('reload');
-                }
-            }
-        })(); // Calling anonymous function here only
-    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">

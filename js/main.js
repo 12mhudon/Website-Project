@@ -1,5 +1,11 @@
 (function ($) {
     "use strict";
+    
+    // jQuery - Wait until images (and other resources) are loaded
+    $(window).load(function(){
+        // All images, css style sheets and external resources are loaded!
+        alert('All resources have loaded');
+    });
 
     // Navbar on scrolling
     $(window).scroll(function () {
